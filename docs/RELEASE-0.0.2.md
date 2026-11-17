@@ -54,8 +54,8 @@ for _ in range(20000):
 | 文件 | 大小 | 用途 |
 |---|---|---|
 | `knowdiskdrive-0.0.2-x86_64.AppImage` | 45 MB | 单文件分发，双击即用，不需要 Python |
-| `knowdiskdrive-0.0.2-src.tar.gz` | 234 KB | 完整源码树，解包即可构建 |
-| `knowdiskdrive-0.0.2-py3-none-any.whl` | 97 KB | pip 安装（目标机有 Python ≥ 3.10） |
+| `knowdiskdrive-0.0.2-src.tar.gz` | 361 KB | 完整源码树，解包即可构建 |
+| `knowdiskdrive-0.0.2-py3-none-any.whl` | 87 KB | pip 安装（目标机有 Python ≥ 3.10） |
 
 从 0.0.1 升上来直接换文件即可：配置（`~/.config/knowdiskdrive/config.toml`）与历史库
 （`~/.local/share/knowdiskdrive/history.db`）格式没变。
@@ -93,8 +93,8 @@ AppImage 的 `AppRun` 按第一个参数分流：无参数开界面，裸词（`
 
 ```
 07b58558702ee1ed0624d1c4ddf76028b86ed1e16569d89e1c525d0ad3d35c83  knowdiskdrive-0.0.2-x86_64.AppImage
-b683258b48e60d94d8eeaf6c804e1df1fd89d929ad18bb24e3006a028850c324  knowdiskdrive-0.0.2-src.tar.gz
-c3283c1137ddba33e47aa26ec3b8cc52c4ac69596a5560e1a9d20b6756a2686d  knowdiskdrive-0.0.2-py3-none-any.whl
+29e51124a37885137f235895833c548f8585d637077605136987f863789a0693  knowdiskdrive-0.0.2-src.tar.gz
+b6898f022d168d27331c5619e506124ba0dac0e2535130d3f09cd371e2dceb81  knowdiskdrive-0.0.2-py3-none-any.whl
 ```
 
 也写在同一目录的 `SHA256SUMS` 里，可以 `sha256sum -c SHA256SUMS`。

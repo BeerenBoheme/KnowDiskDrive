@@ -32,6 +32,7 @@ rsync -a \
     --exclude='*.pyc' \
     --exclude='.git/' \
     --exclude='kdd-crash-*.tar.gz' \
+    --exclude='CRASH-INVESTIGATION.md' \
     --exclude='*.AppImage' \
     ./ "$STAGE/"
 
