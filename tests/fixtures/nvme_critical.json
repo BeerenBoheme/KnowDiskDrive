@@ -1,0 +1,83 @@
+{
+  "json_format_version": [
+    1,
+    0
+  ],
+  "smartctl": {
+    "version": [
+      7,
+      5
+    ],
+    "pre_release": false,
+    "svn_revision": "5714",
+    "platform_info": "x86_64-linux-7.0.0-43-generic",
+    "build_info": "(local build)",
+    "argv": [
+      "smartctl",
+      "-j",
+      "-n",
+      "standby,3",
+      "-a",
+      "/dev/nvme0n1"
+    ],
+    "exit_status": 0
+  },
+  "device": {
+    "name": "/dev/nvme0n1",
+    "info_name": "/dev/nvme0",
+    "type": "nvme",
+    "protocol": "NVMe"
+  },
+  "model_name": "KBG40ZNV512G KIOXIA",
+  "serial_number": "41OPHEXAMPLE1",
+  "firmware_version": "AL00B9P5",
+  "nvme_pci_vendor": {
+    "id": 7695,
+    "subsystems": [
+      {
+        "id": 1,
+        "name": "KIOXIA Corporation"
+      }
+    ]
+  },
+  "user_capacity": {
+    "blocks": 1000215216,
+    "bytes": 512110190592
+  },
+  "logical_block_size": 512,
+  "physical_block_size": 4096,
+  "rotation_rate": 0,
+  "smart_support": {
+    "available": true,
+    "enabled": true
+  },
+  "smart_status": {
+    "passed": false
+  },
+  "nvme_smart_health_information_log": {
+    "critical_warning": 4,
+    "temperature": 79,
+    "available_spare": 8,
+    "available_spare_threshold": 5,
+    "percentage_used": 95,
+    "data_units_read": 119993827,
+    "data_units_written": 82325854,
+    "host_reads": 2371942910,
+    "host_writes": 1017998756,
+    "controller_busy_time": 6384,
+    "power_cycles": 6446,
+    "power_on_hours": 7756,
+    "unsafe_shutdowns": 218,
+    "media_errors": 5,
+    "num_err_log_entries": 1,
+    "warning_temp_time": 0,
+    "critical_comp_time": 0
+  },
+  "temperature": {
+    "current": 79
+  },
+  "power_on_time": {
+    "hours": 7756
+  },
+  "power_cycle_count": 6446
+}

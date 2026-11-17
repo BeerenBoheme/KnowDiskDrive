@@ -1,0 +1,41 @@
+{
+  "json_format_version": [
+    1,
+    0
+  ],
+  "smartctl": {
+    "version": [
+      7,
+      5
+    ],
+    "pre_release": false,
+    "svn_revision": "5714",
+    "platform_info": "x86_64-linux-7.0.0-43-generic",
+    "build_info": "(local build)",
+    "argv": [
+      "smartctl",
+      "-j",
+      "-n",
+      "standby,3",
+      "-a",
+      "/dev/sdb"
+    ],
+    "exit_status": 2
+  },
+  "device": {
+    "name": "/dev/sdb",
+    "info_name": "/dev/sdb",
+    "type": "scsi",
+    "protocol": "SCSI"
+  },
+  "messages": [
+    {
+      "string": "Unknown USB bridge [0x152d:0x0578 (0x3101)]",
+      "severity": "error"
+    },
+    {
+      "string": "Please specify device type with the -d option.",
+      "severity": "error"
+    }
+  ]
+}

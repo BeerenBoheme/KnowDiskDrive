@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=KnowDiskDrive
+GenericName=磁盘健康检测
+Comment=查看 SATA / NVMe / USB 磁盘的 S.M.A.R.T. 健康状态与温度历史
+Exec=knowdiskdrive-gui %F
+TryExec=knowdiskdrive-gui
+Icon=knowdiskdrive
+Terminal=false
+Categories=System;Monitor;
+Keywords=smart;disk;ssd;hdd;health;磁盘;硬盘;健康;
+StartupNotify=true
+StartupWMClass=knowdiskdrive
