@@ -47,6 +47,7 @@ knowdiskdrive-gui
 - 仅 Linux x86_64，需要 glibc ≥ 2.35（Ubuntu 22.04+ / Debian 12+ / RHEL 9+）。
 - **本项目由 AI 开发、AI 测试、AI 上传，不保证稳定性，使用自负风险。**
 - Python 3.10 / 3.11 上 PySide6 必须低于 6.12（``pyproject.toml`` 已限定），否则退出时会崩溃。
+- 感谢模型 DeepSeek V4.1 Flash 参与。
 - 开发与实现细节见 [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md)。
 
 ## 许可

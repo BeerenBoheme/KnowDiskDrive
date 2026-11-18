@@ -93,8 +93,8 @@ AppImage 的 `AppRun` 按第一个参数分流：无参数开界面，裸词（`
 
 ```
 07b58558702ee1ed0624d1c4ddf76028b86ed1e16569d89e1c525d0ad3d35c83  knowdiskdrive-0.0.2-x86_64.AppImage
-29e51124a37885137f235895833c548f8585d637077605136987f863789a0693  knowdiskdrive-0.0.2-src.tar.gz
-b6898f022d168d27331c5619e506124ba0dac0e2535130d3f09cd371e2dceb81  knowdiskdrive-0.0.2-py3-none-any.whl
+03c8e6fb248cdd643d5546a0e41e03f72b097c445a8ec9c39eb66526701c0ae5  knowdiskdrive-0.0.2-src.tar.gz
+76fec830a53318cb462bec2733dcf18ff178cced0d75a22066781628d70c4283  knowdiskdrive-0.0.2-py3-none-any.whl
 ```
 
 也写在同一目录的 `SHA256SUMS` 里，可以 `sha256sum -c SHA256SUMS`。
